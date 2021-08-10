@@ -1,0 +1,7 @@
+primer_numero = int(input("Ingrese primer número: "))
+segundo_numero = int(input("Ingrese segundo número: "))
+tercer_numero = int(input("Ingrese tercer número: "))
+
+promedio = (primer_numero + segundo_numero + tercer_numero) / 3
+
+print(promedio)
