@@ -1,0 +1,4 @@
+nombre="Florencia"
+edad="27"
+
+print(nombre+" tiene "+edad+" años")
