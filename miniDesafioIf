@@ -1,0 +1,12 @@
+nota = int(input("Ingrese nota:"))
+
+if 90 >= nota <= 100:
+  print("La nota es A")
+elif 80 >= nota <= 89:
+  print("La nota es B")
+elif 70 >= nota <= 79:
+  print("La nota es C")
+elif 60 >= nota <= 69:
+  print("La nota es D")
+elif 0 >= nota <= 59:
+  print("La nota es E")
