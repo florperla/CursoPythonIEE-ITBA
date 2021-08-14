@@ -1,6 +1,6 @@
 # El primer for recorre la variable "variedad" la cantidad de veces que se ingrese en "cantidad".
-# Luego el segundo for recorre la variable "cantidad" imprimiendo el código la cantidad de veces
-# que se hayan ingresado anteriormente
+# Luego el segundo for recorre la variable "cantidad" imprimiendo el código de barras la cantidad 
+# de veces que se hayan solicitado
 
 variedad = int(input("Ingrese la variedad de productos:"))
 
