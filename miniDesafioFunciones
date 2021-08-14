@@ -1,0 +1,12 @@
+def chequearData(usuario, contraseña):
+  if (usuario == "Juan" and contraseña == "12345_") or \
+  (usuario == "Pablo" and contraseña == "xDcFvGHn"):
+    return True
+  else:
+    return False
+
+prueba1 = chequearData("jose","jose1")
+print(prueba1)
+
+prueba2 = chequearData("Pablo", "xDcFvGHn")
+print(prueba2)
