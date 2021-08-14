@@ -1,0 +1,14 @@
+# El primer for recorre la variable "variedad" la cantidad de veces que se ingrese en "cantidad".
+# Luego el segundo for recorre la variable "cantidad" imprimiendo el código la cantidad de veces
+# que se hayan ingresado anteriormente
+
+variedad = int(input("Ingrese la variedad de productos:"))
+
+for x in range(variedad):
+    barras = input("Ingrese el codigo de barras correspondiente:")
+    cantidad = int(input("Ingrese la cantidad del producto:"))
+    
+    for y in range (cantidad):
+      print(barras)
+      
+      
