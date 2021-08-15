@@ -1,0 +1,15 @@
+def contarDivisores (numero):
+  contador = 1
+  divisorAux = numero
+  while ((divisorAux != 1)):
+    if ((numero % divisorAux) == 0):
+      contador += 1
+
+    divisorAux -=1
+
+  return (contador)
+
+print(contarDivisores(9))
+print(contarDivisores(10))
+print(contarDivisores(2))
+    
