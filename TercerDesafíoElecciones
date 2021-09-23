@@ -1,0 +1,15 @@
+import operator
+
+votos_totales = int(input()) #Cantidad de votos
+elecciones = {} #acá creas el diccionario vacío
+
+for x in range(votos_totales): #suma al dict los items
+    candidatos = input() #Candidatos
+    
+    elecciones[candidatos] = elecciones.get(candidatos, 0) +1 #acá guardas cada candidato
+
+# ganador=""
+# votosGanador=0
+# for candidatos in elecciones:
+candidato_ganador = max(elecciones, key=lambda key: elecciones[key])
+print(candidato_ganador)
