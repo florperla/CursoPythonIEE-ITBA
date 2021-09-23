@@ -1,0 +1,10 @@
+palabra_ingresada = input()
+contador = 0
+
+while len(palabra_ingresada) > 0:
+    letra = input().upper()
+    contador +=1
+
+    if letra in palabra_ingresada:
+        palabra_ingresada = palabra_ingresada.replace(letra, "")
+print(contador) 
